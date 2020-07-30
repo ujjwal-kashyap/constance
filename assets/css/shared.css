@@ -1,0 +1,38 @@
+/*all containers*/
+.ukcnt {
+    /*border: 2px solid blue;*/
+}
+
+/* placeholder styling - different from actual input */
+::-webkit-input-placeholder {
+    font: var(--font-weight-text) var(--font-size-h6) var(--font-fam);
+}
+::-moz-input-placeholder {
+    font: var(--font-weight-text) var(--font-size-h6) var(--font-fam);
+}
+::-ms-input-placeholder {
+    font: var(--font-weight-text) var(--font-size-h6) var(--font-fam);
+}
+::-o-input-placeholder {
+    font: var(--font-weight-text) var(--font-size-h6) var(--font-fam);
+}
+::placeholder {
+    font: var(--font-weight-text) var(--font-size-h6) var(--font-fam);
+}
+
+/* ========================================
+   body
+   ======================================== */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#websitebody1 {
+  width: 98.7vw;
+  height: 100vh;
+}
+
+
+@media screen and (min-width: 1024px) {
+}
