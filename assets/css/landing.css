@@ -1,3 +1,80 @@
 /* ========================================
    body
    ======================================== */
+
+.static {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#bgimg1 {
+  background-image: url('../images/bg1.jpg');
+}
+
+#title1 {
+  position: absolute;
+  bottom: 20vmin;
+}
+
+.titletext {
+  color: white;
+  font-weight: 1000;
+  background-color: rgba(200, 200, 200, 0.5);
+  padding: 0px 10px;
+  text-align: center;
+}
+
+#title1 h1 {
+  font-size: 10vmin;
+  line-height: 12vmin;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#title1 h3 {
+  font-size: 5vmin;
+  line-height: 8vmin;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#contentwrap1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content1 {
+  width: 80vw;
+  max-width: 1500px;
+}
+
+.contenthead {
+  font-size: 5vmin;
+  line-height: 8vmin;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contentpara {
+  font-size: 2.2vmin;
+  line-height: 5vmin;
+  text-align: justify;
+  margin: 40px 0px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  #content1 {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #content1 {
+    width: 40vw;
+  }
+}
