@@ -67,6 +67,47 @@
   font-weight: 500;
 }
 
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.ctatext {
+  font-size: 2.2vmin;
+  line-height: 5vmin;
+  text-align: center;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+.formelement {
+    margin: 10px 0px;
+}
+
+.input {
+  width: 20vw;
+  height: 20px;
+  min-width: 200px;
+  vertical-align: middle;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
 @media screen and (min-width: 768px) {
   #content1 {
     width: 50vw;

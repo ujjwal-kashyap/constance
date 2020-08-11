@@ -51,9 +51,8 @@
                     dataType: "json",
                     data: form.serializeObject()
                 });
-                $(".thanks").html("Thank you for getting in touch!").css("font-size", "4rem");
-                $(".form-control").remove();
-                $("#submit").remove();
+
+                alert("Thank You!\n\nWe respect your privacy, your email address will not be shared with any third party and will only be used to keep you updated on Constance.ai products.");
             });
         });
     </script>
@@ -112,14 +111,15 @@
       </section>
 
       <section class="ukcnt cta" id="cta1">
-        <p>Register for an exclusive pre-launch access</p>
-        <form class="form ukcnt" id="form1">
-          <input class="input email" name="email" type="email" id="email1" placeholder="Enter your email here*" />
-          <textarea class="input message" name="message" id="messsage1" rows="1" placeholder="A message for the team"></textarea>
-          <button class="button footer" id="button1" formid="form1" type="submit">
-            <h5>submit</h5>
+        <p class="ctatext">Register for an exclusive pre-launch access</p>
+        <form class="form ukcnt cta" id="form1">
+          <input class="formelement input email" name="email" type="email" id="email1" placeholder="Enter your email here*" />
+          <textarea class="formelement input message" name="message" id="messsage1" rows="1" placeholder="A message for the team"></textarea>
+          <button class="formelement button footer" id="button1" formid="form1" type="submit">
+            <h5>Submit</h5>
           </button>
         </form>
+        <p>&copy; Constance.ai Pty. Ltd. ABN - 18636624612</p>
       </section>
 
     </section>
