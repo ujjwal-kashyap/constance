@@ -72,15 +72,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+}
+
+#cta1 {
+  margin: 50px 0px;
 }
 
 .ctatext {
   font-size: 2.2vmin;
   line-height: 5vmin;
   text-align: center;
-  margin: 10px 0px;
+  padding: 10px 0px;
   font-weight: 500;
+
+}
+
+#boundingbox1 {
+  /*border: 1px solid black;*/
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  /*box-shadow: 5px 10px 8px 10px #888888;*/
+  box-shadow: 0px 0px 20px -15px black;
 }
 
 .formelement {
@@ -112,10 +125,34 @@
   #content1 {
     width: 50vw;
   }
+
+  #boundingbox1 {
+    padding: 20px 100px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   #content1 {
     width: 40vw;
   }
+
+  #boundingbox1 {
+    padding: 20px 150px;
+  }
+}
+
+.ani-up-scroll {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0.1;
+  transition: transform 0s ease-out 0s,
+              opacity 0s linear 0s;
+}
+
+.ani-up {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: transform 1s ease-out 0s,
+              opacity 1s linear 0s;
+
 }
