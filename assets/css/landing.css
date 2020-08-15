@@ -28,14 +28,14 @@
 }
 
 #title1 h1 {
-  font-size: 10vmin;
-  line-height: 12vmin;
+  font-size: 20px;
+  line-height: 30px;
   border-radius: 5px 5px 0px 0px;
 }
 
 #title1 h3 {
-  font-size: 5vmin;
-  line-height: 8vmin;
+  font-size: 16px;
+  line-height: 30px;
   border-radius: 0px 0px 5px 5px;
 }
 
@@ -53,15 +53,15 @@
 }
 
 .contenthead {
-  font-size: 5vmin;
-  line-height: 8vmin;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
   margin-top: 30px;
 }
 
 .contentpara {
-  font-size: 2.2vmin;
-  line-height: 5vmin;
+  font-size: 12px;
+  line-height: 20px;
   text-align: justify;
   margin: 40px 0px;
   font-weight: 500;
@@ -79,8 +79,8 @@
 }
 
 .ctatext {
-  font-size: 2.2vmin;
-  line-height: 5vmin;
+  font-size: 12px;
+  line-height: 20px;
   text-align: center;
   padding: 10px 0px;
   font-weight: 500;
@@ -136,6 +136,31 @@
 @media screen and (min-width: 768px) {
   #content1 {
     width: 50vw;
+  }
+
+  #title1 h1 {
+    font-size: 10vmin;
+    line-height: 12vmin;
+  }
+
+  #title1 h3 {
+    font-size: 5vmin;
+    line-height: 8vmin;
+  }
+
+  .contenthead {
+    font-size: 5vmin;
+    line-height: 8vmin;
+  }
+
+  .contentpara {
+    font-size: 2.2vmin;
+    line-height: 5vmin;
+  }
+
+  .ctatext {
+    font-size: 2.2vmin;
+    line-height: 5vmin;
   }
 
   #boundingbox1 {
